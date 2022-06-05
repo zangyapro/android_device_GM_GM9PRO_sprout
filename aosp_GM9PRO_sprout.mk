@@ -14,6 +14,9 @@ $(call inherit-product, vendor/proton/build/common.mk)
 # Inherit from device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+#Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BRAND := GM
 PRODUCT_DEVICE := GM9PRO_sprout
 PRODUCT_MANUFACTURER := General Mobile
